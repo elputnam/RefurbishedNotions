@@ -40,9 +40,7 @@ In the creative coding book *Aesthetic Programming,* authors Winnie Soon and Geo
 
 It is a measure of time, but without a sense of progress; just a cycle that may end at any moment (if at all). 
 
-It got me thinking about time as experienced during the pandemic. 
-
-Time has taken on a different feel.
+It got me thinking about time as experienced during the pandemic. Time has taken on a different feel.
 
 ## Ferocious Patience
 
