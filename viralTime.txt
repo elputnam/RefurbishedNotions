@@ -16,7 +16,7 @@ asks
 students 
 to 
 animate 
-a "thob," 
+a "throbber," 
 that 
 virtual 
 indicator 
