@@ -6,6 +6,10 @@ The body is the database of lived experience. Each gesture each action leaves a 
 
 The colors of the rectangles change in correlation with my heart rate data collected on a day selected randomly from the first period of quarantine in 2020. 
 
+I started listening to vaporwave as I work after reading Roisin Kiberd’s *The Disconnect: A Personal Journal Through the Internet.* The sonic textures are evocative of an earlier era of digital culture, which I find matches the graphic elements of this sketch. Unlike a screensaver, however, traces of colors and forms are left in the semi-transparent backdrop. 
+
+These graphics are sublimations of anxieties and feelings of (dis)connection over the past year, as the pandemic exasperates qualities of social isolation.
+
 ## Tether
 
 The past period of isolation and increased reliance on digital connectivity has twisted my sense of time and space. 
@@ -13,6 +17,8 @@ The past period of isolation and increased reliance on digital connectivity has 
 In some ways, these technologies and our confined states of being have increased my access to what I have been geographically distant from, which I fear may be lost as we re-engage with our in-person connections. This virtual closeness also hightlights our distance; being apart through the screen. We remain apart so we may not behave as vectors, carriers of a biological entity that lacks illusions of autonomy. 
 
 We are not just interconnected but entangled.
+
+During 2021, I reconnected with a cousin on my father’s side of the family, whom I have not spoken to in decades. I learned he is a musician and writer, and is in the process of writing a story where people are connected with tethers. It brought to mind a statement my daughter made not too long ago about my mother who lives in the US; we may be apart but we have these strings that connect us.
 
 ## Firefly Burnout
 
@@ -48,6 +54,8 @@ Once it became clear that working from home would extend into the new academic y
 
 The FitBit categorizes activity minutes as lightly active, moderately active, very active, and sedentary. Categories that are interpreted through heart rate data and movements. My very active minutes became my sedentary minutes, as I fed the machine. Becoming machine. Became the machine.
 
+I use data to animate the body, but also introduce obfuscation as the presentation of data is not merely presented as facts to be read. The stylistic quality of the images is evocative of 19th century motion capture experiments by Eoduard Muybridge and Étienne-Jules Marey.
+
 ## Sedentary Productivity
 
 This period of staying close to home -- initially within a 2 kilometer radius -- got me thinking about movement within this sphere, and how my body responded to this constraint. Circling around the house repeatedly, following my two young daughters. I wanted to start counting these steps. I tried to make a pedometer with an Adafruit circuit playground (in order to maintain control over my data), though I was unable to find a way to log the data externally and it kept shutting down due to a battery fault. I ended up just purchasing a FitBit. The model I acquired could also track heart rate. What began as an artistic impetus -- a desire to track my steps and biometric data as a means of documenting this experience -- soon came to influence my running. I found myself running further and faster, making sure to hit my step targets. I set an alert for every hour, so if I had not completed 250 per hours I would be prompted to do so. For a while, I just marched in place to meet these arbitrary targets. My bodily movements were modified in relation to this technical object, a digital device that tracked my movements.
@@ -58,10 +66,14 @@ I also noted its inaccuracies. Sometimes while driving for prolonged periods of 
 
 In March 2020, I began running again. At that stage, it had been years since I ran regularly. I used to run track and field in high school, but it did not become a lifelong habit. During this first period of lockdown in response to COVID-19, when schools and creches were closed and we were confined to our home, I discovered was running was the only time during the day that I was uninterrupted and alone. It became the only time I was able to think. As my field hit the pavement in a rhythmic pattern and fuelled by endorphines, I let me my mind wander, crafting webs of ideas. When I got back home, I would jot down everything I could recall, though like a dream, some thoughts were inevitably lost with my exhaled breaths and sweat. Running also helped my psychological state and became a way to process the ongoing stress of the pandemic through my body.
 
-The data collected by the FitBit is data of the body; indications and tracking of the body's movements, heartrates, sleep states, and so forth. The device quantifies gestures (both internal and external), creating a lingustic or numeric trace that is read and tracked. It is not only data of the body, but a body of data.
+The data collected by the FitBit is data of the body; indications and tracking of the body's movements, heartrates, sleep states, and so forth. The device quantifies gestures (both internal and external), creating a lingustic or numeric trace that is read and tracked. It is not only data of the body, but a body of data. Despite the fact that it is embodied experience that produces this data, reading them as abstracted numbers does not encapsulate the full experience that produced this information. Numbers in a excel sheet are simply facts.
 
 ## Android Dream
 
 Since becoming a mother, I have struggled with sleep deprivation. Lack of sleep has a profound impact, physically and mentally, including an ongoing state of general fatigue and sensation of being ground down amidst the pressures affiliated with maternal responsibilities.
 
 *Android Dream* is a generative animation where the image changes, colours schemes and opacity, and the soundtrack are created based on a month’s worth of sleep data collected by my Fitbit. A month is selected randomly from the present back to April 2020, when the impacts of the COVID-19 pandemic and subsequent public health restrictions were becoming manifest in the body. The photographic images and colours change in relation to the sleep level (awake, light, deep, and REM), with the opacities mapped to the duration of sleep at that level. The sound frequencies relate to level of sleep and the volume corresponding to the duration. This work is not just visualisations and sonifications of data, but functions as a performance documentation; a divergent means of presenting the combined pressures of sleep deprivation and maternal responsibilities during the pandemic.
+
+## Heart Grid
+
+Presumptions of emotional neutrality are impossible, as even objectivity functions as a kind of rhetorical persuasion, where facts are presented as indisputable truth. In addition, the abstraction of the body through quantification gives the impression that the body can be reduced to static figures, isolating the body from its techno-geographic milieu that is corporeal, dynamic, and more than just numbers in an Excel spreadsheet. Data, instead, can be used to leverage affect--emotions and subjective feelings that produce stimuli for sensory perception, but also enable means of relating to others in ways that exceed quantification.
