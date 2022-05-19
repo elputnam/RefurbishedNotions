@@ -8,12 +8,14 @@ let hue1;
 let myNotions = [];
 
 //Txt to Speech
-var myVoice = new p5.Speech(); // new P5.Speech object
+var  myVoice = new p5.Speech('Google UK English Male', ramblingNotions);
 
 
 function preload(){
   //Load notions
   myNotions = loadJSON("notions.json", myNotions);
+  // myVoice =  new p5.Speech('Microsoft Zira - English (United States)', ramblingNotions);
+ 
 }
 
 function setup() {
@@ -24,13 +26,16 @@ function setup() {
   locy = height/2;
   frameRate(10);
   amplitude = new p5.Amplitude();
-  // myVoice.listVoices();
+  //setVoice(1);
+  myVoice.listVoices();
 }
 
 function draw() {
+  // console.log(frameCount);
   background(0);
   grid();
   ramblingNotions();
+  // myVoice.listVoices();
   
 }
 
@@ -62,8 +67,15 @@ function ramblingNotions(){
   let i = int(random(myNotions.notions.length));
   hue1 = i;
   //myVoice.speak(myNotions.notions[i].title);
-  myVoice.setRate(1);
+  // myVoice.setVoice('Google UK English Male');
+  
+  myVoice.setRate(0.8);
+  myVoice.setVolume(0.7);
   myVoice.speak(myNotions.notions[i].text);
   // amplitude.setInput();
   // tileCount = map(level, 0, 1, height*0.07, height*0.1)
+}
+
+function mouseClicked(){
+  ramblingNotions();
 }
