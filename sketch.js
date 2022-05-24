@@ -4,6 +4,7 @@ let locx;
 let locy;
 let hue1;
 
+
 //Text variables
 let myNotions = [];
 
@@ -15,8 +16,7 @@ function preload(){
   //Load notions
   myNotions = loadJSON("notions.json", myNotions);
   // myVoice =  new p5.Speech('Microsoft Zira - English (United States)', ramblingNotions);
- 
-}
+ }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -27,16 +27,16 @@ function setup() {
   frameRate(10);
   amplitude = new p5.Amplitude();
   //setVoice(1);
-  myVoice.listVoices();
+  //myVoice.listVoices();
+  
 }
 
 function draw() {
   // console.log(frameCount);
   background(0);
   grid();
-  ramblingNotions();
+  //ramblingNotions();
   // myVoice.listVoices();
-  
 }
 
 function grid(){
@@ -46,11 +46,11 @@ function grid(){
       let posY = (height / tileCount) * gridY;
       noStroke();
       rect(posX, posY, height/tileCount);
-
+      
       var toggle = floor(random(1, 3));
        if (toggle == 1){
          //fill(random(360), 100, 50);
-         fill(hue1*30, random(100), random(100));
+         fill(hue1, random(100), random(100));
     } else {
         fill(random(255));
         }
@@ -77,5 +77,5 @@ function ramblingNotions(){
 }
 
 function mouseClicked(){
-  ramblingNotions();
+  //ramblingNotions();
 }
