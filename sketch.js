@@ -3,6 +3,7 @@ let tileCount;
 let locx;
 let locy;
 let hue1;
+let voice;
 
 
 //Text variables
@@ -10,6 +11,8 @@ let myNotions = [];
 
 //Txt to Speech
 var  myVoice = new p5.Speech('Google UK English Male', ramblingNotions);
+// myVoice.onStart = speechStarted;
+
 
 
 function preload(){
@@ -35,6 +38,7 @@ function draw() {
   // console.log(frameCount);
   background(0);
   grid();
+  myVoice.onEnd = reStart();
   //ramblingNotions();
   // myVoice.listVoices();
 }
@@ -64,18 +68,34 @@ function windowResized (){
 }
 
 function ramblingNotions(){
-  let i = int(random(myNotions.notions.length));
-  hue1 = i;
-  //myVoice.speak(myNotions.notions[i].title);
-  // myVoice.setVoice('Google UK English Male');
+  
+  voice = int(random(myNotions.notions.length));
+  hue1 = random(360);
+  // myVoice.speak(myNotions.notions[i].title);
   
   myVoice.setRate(0.8);
   myVoice.setVolume(0.7);
-  myVoice.speak(myNotions.notions[i].text);
+  myVoice.speak(myNotions.notions[voice].text);
+ 
+
   // amplitude.setInput();
   // tileCount = map(level, 0, 1, height*0.07, height*0.1)
 }
 
-function mouseClicked(){
-  //ramblingNotions();
+function reStart(){
+  ramblingNotions();
 }
+
+function speechStarted(){
+  
+}
+
+
+function mouseClicked(){
+  ramblingNotions();
+  let fs = fullscreen();
+  fullscreen(!fs);
+  }
+  
+
+
