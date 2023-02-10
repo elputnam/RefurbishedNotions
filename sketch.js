@@ -10,7 +10,7 @@ let voice;
 let myNotions = [];
 
 //Txt to Speech
-var  myVoice = new p5.Speech('Google UK English Male', ramblingNotions);
+var  myVoice = new p5.Speech();
 // myVoice.onStart = speechStarted;
 
 
@@ -38,8 +38,9 @@ function draw() {
   // console.log(frameCount);
   background(0);
   grid();
-  myVoice.onEnd = reStart();
-  //ramblingNotions();
+  hue1 = random(360);
+  // myVoice.onEnd = reStart();
+  ramblingNotions();
   // myVoice.listVoices();
 }
 
@@ -69,8 +70,9 @@ function windowResized (){
 
 function ramblingNotions(){
   
-  voice = int(random(myNotions.notions.length));
-  hue1 = random(360);
+  voice = floor(random(myNotions.notions.length));
+  console.log(voice);
+  // console.log(myNotions.notions.length);
   // myVoice.speak(myNotions.notions[i].title);
   
   myVoice.setRate(0.8);
@@ -86,9 +88,6 @@ function reStart(){
   ramblingNotions();
 }
 
-function speechStarted(){
-  
-}
 
 
 function mouseClicked(){
