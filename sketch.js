@@ -40,7 +40,7 @@ function draw() {
   grid();
   hue1 = random(360);
   // myVoice.onEnd = reStart();
-  // ramblingNotions();
+  ramblingNotions();
   // myVoice.listVoices();
 }
 
